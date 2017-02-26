@@ -59,6 +59,7 @@ void cartesianProduct(struct Element elm) {
 Обединението на множествата е C = A U B = {1,2,3,4,5,6,7,8,9,10}
 Декартово произведение над C:
 
+![alt tag](https://github.com/milenaangelova1/DescreteStructures/blob/master/images/task2.PNG) <br>
 ```
 Написаната функция по-долу е функция за намиране на разлика между две множества. Променете я, така че да се получи функция за намиране на обединение между съответните множества.
 ```
@@ -84,5 +85,4 @@ int difference(struct Element elem) {
     return C;
 }
 ```
-Резултатът от програмата. <br>
-![alt tag](https://github.com/milenaangelova1/DescreteStructures/blob/master/images/task2.PNG) <br>
+
