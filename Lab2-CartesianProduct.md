@@ -48,5 +48,5 @@ void cartesianProduct(struct Element elm) {
     printf("}");
 }
 ```
-Резултатът от програмата.
-![alt tag]()
+Резултатът от програмата. <br>
+![alt tag](https://github.com/milenaangelova1/DescreteStructures/blob/master/images/task1.PNG)
