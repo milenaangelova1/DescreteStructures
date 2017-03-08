@@ -21,7 +21,7 @@
   };
 ```
 
-Функция за инициализиране на структурата Element. 
+Функция за инициализиране на структурата Element. Инициализиран е само единият масив А. Вие ще трябва да добавите и другият масив към програмата и да го инициализирате с нечетните числа.
 ```
 struct Element initializeArrays() {
     int i;
@@ -38,7 +38,7 @@ struct Element initializeArrays() {
     return elm;
 }
 ```
-Функция за намиране на декартово произведение:
+Функция за намиране на декартово произведение. Функцията трябва да бъде дописана, така че да принтира резултата от декартовото произведение. Виж резултата от програмата по-долу.
 ```
 void cartesianProduct(struct Element elm) {
     int i, j;
@@ -58,31 +58,31 @@ void cartesianProduct(struct Element elm) {
 А = {2,4,6,8,10}  B = {1,3,5,7,9} 
 Обединението на множествата е C = A U B = {1,2,3,4,5,6,7,8,9,10}
 Декартово произведение над C:
+```
+![alt tag](https://github.com/milenaangelova1/DescreteStructures/blob/master/images/task2.PNG) <br>
 
+Написаната функция по-долу е функция за на разлика между две множества. Променете я, така че да се получи функция за намиране на обединение между съответните множества.
 ```
-Написаната функция по-долу е функция за намиране на разлика между две множества. Променете я, така че да се получи функция за намиране на обединение между съответните множества.
-```
-int difference(struct Element elem) {
-    int i=0, j, k, flag = 0;
-    int nA = sizeof(elem.a)/sizeof(int);
-    int nB = sizeof(elem.b)/sizeof(int);
+int * difference(struct Element elem) {
+    int index=1, j, k, flag = 0;
+    int nA = elem.a[0];
+    int nB = elem.b[0];
     int* C = malloc(sizeof(int) * nA + sizeof(int) * nB);
-    for(j = 0; j<nA; j++) {
+    for(j = 1; j<=nA; j++) {
         flag = 1;
-        for(k=0;k<nB; k++) {
-            if (elem.B[k] == elem.A[j]) {
+        for(k=1;k<=nB; k++) {
+            if (elem.b[k] == elem.a[j]) {
                 flag = 0;
                 break;
             }
         }
         if (flag == 1) {
-            C[i] = elem.A[j];
-            i++;
+            C[index] = elem.a[j];
+            index++;
         }
     }
-
+    C[0] = index;
     return C;
 }
 ```
-Резултатът от програмата. <br>
-![alt tag](https://github.com/milenaangelova1/DescreteStructures/blob/master/images/task2.PNG) <br>
+
