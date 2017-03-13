@@ -17,7 +17,7 @@
   <b>Изход:</b> Всички пермутации на {1,2,3, ..., n} в нарастващ лексигорафически ред. <br>
 </p>
 <pre><code>
-  1. procedure generatePermutations(n, k):
+  1. procedure generatePermutations(n):
   2. for i := 1 To n Then
   3.    s<sub>i</sub> := i
   4. print s<sub>1</sub>, s<sub>2</sub>, …, s<sub>n</sub>
@@ -59,7 +59,7 @@
   <b>Изход:</b> Всички комбинации от k-ти клас на {1,2,3, ...,n} в нарастващ лексикографичен ред. <br>
 </p>
 <pre><code>
-  1. procedure generateCombinations(n):
+  1. procedure generateCombinations(n, k):
   2. for j := 1 To k Then
   3.   s<sub>i</sub> := i
   4. print s<sub>1</sub>, s<sub>2</sub>, …, s<sub>k</sub>
