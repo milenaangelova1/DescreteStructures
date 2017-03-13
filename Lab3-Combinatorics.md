@@ -10,7 +10,7 @@
 </p>
 
 <p align="justify">
-<b>Задача 1.</b> Да се напише програма, която да реализира генерирането на пермутации. За целта използвайте написаният псевдокод по-долу.
+i<b>Задача 1.</b> Да се напише програма, която да реализира генерирането на пермутации. За целта използвайте написаният псевдокод по-долу.
 </p>
 <p align="justify">
   <b>Вход:</b> n <br>
@@ -20,8 +20,7 @@
   1. procedure generatePermutations(n):
   2. for i := 1 To n Then
   3.    s<sub>i</sub> := i
-  4. print s<sub>1</sub>, s<sub>2</sub>, …, s<sub>n</sub>
-  5. for i := 2 To n!
+  4. print s<sub>1</sub>, s<sub>2</sub>, …, s<sub>n</sub>  5. for i := 2 To n!
   6. {
   7.     m := n - 1
   8.     while s<sub>m</sub> > s<sub>m+1</sub>
@@ -60,7 +59,7 @@
 </p>
 <pre><code>
   1. procedure generateCombinations(n, k):
-  2. for j := 1 To k Then
+  2. for i := 1 To k Then
   3.   s<sub>i</sub> := i
   4. print s<sub>1</sub>, s<sub>2</sub>, …, s<sub>k</sub>
   5. for i := 2 to C(n, k) Then
