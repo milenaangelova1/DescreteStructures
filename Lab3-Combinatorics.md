@@ -17,7 +17,7 @@
   <b>Изход:</b> Всички пермутации на {1,2,3, ..., n} в нарастващ лексигорафически ред. <br>
 </p>
 <pre><code>
-  1. procedure generatePermutations(n):
+  1. procedure generatePermutations(n, k):
   2. for i := 1 To n Then
   3.    s<sub>i</sub> := i
   4. print s<sub>1</sub>, s<sub>2</sub>, …, s<sub>n</sub>
