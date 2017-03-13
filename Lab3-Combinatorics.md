@@ -18,9 +18,9 @@
 </p>
 <pre><code>
   1. procedure generatePermutations(n):
-n  2. for i := 1 To n Then
+  2. for i := 1 To n Then
   3.    s<sub>i</sub> := i
-,  4. print s<sub>1</sub>, s<sub>2</sub>, …, s<sub>n</sub>
+  4. print s<sub>1</sub>, s<sub>2</sub>, …, s<sub>n</sub>
   5. for i := 2 To n!
   6. {
   7.     m := n - 1
