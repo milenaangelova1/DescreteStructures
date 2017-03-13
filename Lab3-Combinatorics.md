@@ -18,7 +18,7 @@
 </p>
 <pre><code>
   1. procedure generatePermutations(n):
-  2. for i := 1 To n Then
+n  2. for i := 1 To n Then
   3.    s<sub>i</sub> := i
 ,  4. print s<sub>1</sub>, s<sub>2</sub>, …, s<sub>n</sub>
   5. for i := 2 To n!
@@ -42,8 +42,7 @@
   23.}
 </code></pre>
 
-Примерен резултат за генериране на пермутация, когато броят на елементите n = 3:
-![alt tag](https://github.com/milenaangelova1/DescreteStructures/blob/master/images/permutations_final.PNG) <br>
+Намерете кои ще са пермутациите при  n = 3.
 
 ## 2. Алгоритъм за генериране на комбинации
 ## Какво е комбинация?
@@ -80,5 +79,4 @@
   18. }
 </code></pre>
 
-Примерен резултат за генериране на пермутация, когато е броят на елементите n = 5 и клас k = 3:
-![alt tag](https://github.com/milenaangelova1/DescreteStructures/blob/master/images/combinatorics_final.PNG) <br>
+Намерете комбинациите при n = 5 клас k = 3.
