@@ -68,7 +68,7 @@
   6. {
   7.    m := k
   8.    max_val := n
-  9.    while s<sub>m</sub> := max_val
+  9.    while s<sub>m</sub> = max_val
   10.   {
   11.      m := m - 1
   12.      max_val := max_val - 1
@@ -81,4 +81,4 @@
 </code></pre>
 
 Примерен резултат за генериране на пермутация, когато е броят на елементите n = 5 и клас k = 3:
-![alt tag](https://github.com/milenaangelova1/DescreteStructures/blob/master/images/combinations_final.PNG) <br>
+![alt tag](https://github.com/milenaangelova1/DescreteStructures/blob/master/images/combinatorics_final.PNG) <br>
