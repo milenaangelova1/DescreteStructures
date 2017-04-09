@@ -25,14 +25,13 @@ T = V\{s}
 3.3) За всяко i∈T изпълняваме d[i] = min(d[i], d[j] + A[j][i]); 
 ```
 
-## Задача 1: Да се реализира алгоритъма на Дейкстра върху следният граф. 
-Да се намерят всички минимални пътища от връх 1 до всички останали.
+## Задача 1: Да се реализира алгоритъма на Дейкстра върху следният граф. Да се намерят всички минимални пътища от връх 1 до всички останали.
 
-![alt tag](https://raw.githubusercontent.com/username/projectname/branch/path/to/graph1.png)
+![alt tag](https://github.com/milenaangelova1/DiscreteStructures/blob/master/images/graph1.PNG)
 
 Графът да се представи чрез матрица на теглата.
 
-![alt tag](https://raw.githubusercontent.com/username/projectname/branch/path/to/graph1.png)
+![alt tag](https://github.com/milenaangelova1/DiscreteStructures/blob/master/images/dijkstra.PNG)
 
 Резултат от изпълнението на програмата: 
 ```
