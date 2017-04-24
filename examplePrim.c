@@ -1,6 +1,6 @@
 // A C / C++ program for Prim's Minimum Spanning Tree (MST) algorithm. 
 // The program is for adjacency matrix representation of the graph
-
+// Source: http://www.geeksforgeeks.org/greedy-algorithms-set-5-prims-minimum-spanning-tree-mst-2/
 #include <stdio.h>
 #include <limits.h>
 
