@@ -50,6 +50,6 @@
 Алгоритъм на Прим
 ![alt tag](https://github.com/milenaangelova1/DiscreteStructures/blob/master/images/prim.PNG)
 
-Примерни решения на алгоритмите на Прим и Крускал със създаване на структура граф.
-Алгоритъм на Прим [a link](https://github.com/milenaangelova1/DiscreteStructures/blob/master/examplePrim.c)
+Примерни решения на алгоритмите на Прим и Крускал със създаване на структура граф. <br>
+Алгоритъм на Прим [a link](https://github.com/milenaangelova1/DiscreteStructures/blob/master/examplePrim.c) <br>
 Алгоритъм на Крускал [a link](https://github.com/milenaangelova1/DiscreteStructures/blob/master/exampleKruskal.c)
