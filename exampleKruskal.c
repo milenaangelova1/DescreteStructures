@@ -1,5 +1,6 @@
 // C++ program for Kruskal's algorithm to find Minimum Spanning Tree
 // of a given connected, undirected and weighted graph
+// Source: http://www.geeksforgeeks.org/greedy-algorithms-set-2-kruskals-minimum-spanning-tree-mst/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
