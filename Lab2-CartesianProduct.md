@@ -62,7 +62,7 @@ void cartesianProduct(struct InitialArrays elm) {
 Пример:
 А = {2,4,6,8,10}  B = {1,3,5,7,9} 
 Обединението на множествата е C = A U B = {1,2,3,4,5,6,7,8,9,10}
-Декартово произведение над C:
+Декартово произведение над C с рефлексивни двойки елементи:
 ```
 ![alt tag](https://github.com/milenaangelova1/DescreteStructures/blob/master/images/task2.PNG) <br>
 
