@@ -111,4 +111,11 @@
 ![alt tag](https://github.com/milenaangelova1/DiscreteStructures/blob/master/images/graph2.PNG)
 
 
+Пример за алгоритъм на Прим
+https://www.geeksforgeeks.org/greedy-algorithms-set-5-prims-minimum-spanning-tree-mst-2/
+
+Пример за алгоритъм на Крускал
+https://www.geeksforgeeks.org/greedy-algorithms-set-2-kruskals-minimum-spanning-tree-mst/
+
+
 
