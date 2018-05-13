@@ -32,7 +32,7 @@
 Строим дървото по следния начин:
 ```
 
-![alt tag](https://github.com/milenaangelova1/DiscreteStructures/blob/master/images/huffman1.PNG)
+![alt tag](https://github.com/milenaangelova1/DiscreteStructures/blob/master/images/huffman1.png)
 
 ### Построяване на азбуката по дървото на Хъфман
 <p align="justify">
@@ -41,7 +41,7 @@
   Продължаваме примера отгоре. Дървото, отбелязано с 0 и 1 изглежда така:
 </p>
 
-![alt tag](https://github.com/milenaangelova1/DiscreteStructures/blob/master/images/huffman2.PNG)
+![alt tag](https://github.com/milenaangelova1/DiscreteStructures/blob/master/images/huffman2.png)
 
 ```
   Таблицата за кодиране е:
