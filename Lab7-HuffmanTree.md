@@ -74,6 +74,8 @@ ABRACADABRA → 0 100 11 0 1010 0 1011 0 100 11 0 → 01001101010010110100110
 Пример
 01001101010010110100110 → 0 100 11 0 1010 0 1011 0 100 11 0 → ABRACADABRA
 ```
-### Задача: Да се напише програма, която чете текст от файл, построява дървото на Хъфман и съхранява двоичната последователност, която кодира оригиналния текст в отделен текстови файл. Използвайте текстовият файл some_text.txt.
+### Задача: Да се напише програма, която чете текст от файл, построява дървото на Хъфман и съхранява двоичната последователност, която кодира оригиналния текст в отделен текстови файл. Използвайте текстовият файл [some_text.txt](https://github.com/milenaangelova1/DiscreteStructures/edit/master/some_text.txt).
 
-За работа с файлове: https://www.geeksforgeeks.org/g-fact-82/.
+За работа с файлове: [тук](https://www.geeksforgeeks.org/g-fact-82)
+Алгоритъм на Хъфман [тук](https://github.com/milenaangelova1/DiscreteStructures/edit/master/huffman.c)
+Допълнителна литература: [тук](https://github.com/milenaangelova1/DiscreteStructures/blob/master/163405116-c-programming.pdf) и [тук](https://github.com/milenaangelova1/DiscreteStructures/blob/master/274659820-C-Programming-Professional-For-Beginner-s-Zer07.pdf).
