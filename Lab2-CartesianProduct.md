@@ -37,7 +37,7 @@ Set * set(int number_of_elements, unsigned max, unsigned min);
 void print(Set * set);
 Relation * cartesian_product(Set * A, Set * B);
 void print_cartesian_product(Relation * cartesian_product);
-int * randomGenerator(int number_of_rand_numbers, unsigned max, unsigned min);   
+int * random_generator(int number_of_rand_numbers, unsigned max, unsigned min);   
 
 int main(int argc, const char * argv[]) {
     srand((int)time(NULL));
