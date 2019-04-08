@@ -39,7 +39,7 @@
   19.      p := p + 1
   20.      q := q – 1
   21.    }
-  22.  print s<sub>0</sub>, s<sub>1</sub>, …, s<sub>2</sub>
+  22.  print s<sub>0</sub>, s<sub>1</sub>, …, s<sub>n</sub>
   23.}
 </code></pre>
 
