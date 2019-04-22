@@ -27,7 +27,7 @@ T = V\{s}
 
 ## Задача 1: Да се реализира алгоритъма на Дейкстра върху следният граф. Да се намерят всички минимални пътища от връх 0 до всички останали върхове.
 
-![alt tag](https://github.com/milenaangelova1/DiscreteStructures/blob/master/Lab4 Graphs/images/graph1.PNG)
+![alt tag](https://github.com/milenaangelova1/DiscreteStructures/blob/master/Lab%204%20Graphs/images/graph1.PNG)
 
 Примерен изход от програмата, като това са разстоянията от връх 1 до връх 2 и 3: 
 ```
